@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "inputDocument",
+      "databaseName": "francesco",
+      "collectionName": "test",
+      "connectionStringSetting": "COSMOS_CONNECTION_STRING",
+      "id": "2",
+      "partitionKey": "2"
+    }
+  ],
+  "scriptFile": "../dist/TestBindingDocumentNotExists/index.js"
+}
