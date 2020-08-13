@@ -28,5 +28,5 @@ as result we have a 500 Error when the function is called if we check the connec
 Value cannot be null. (Parameter 'key')
 ```
 
-There is already a ISSUE on github for the problem https://github.com/Azure/azure-functions-host/issues/6454
+There is already a ISSUE on github for the problem https://github.com/Azure/azure-functions-host/issues/6454.  
 The issue is now closed and the fix is already merged in the main branch but there isn't a new release of the runtime.
